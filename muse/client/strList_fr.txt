@@ -1,0 +1,320 @@
+
+// Intro messages
+INTRO_ENTERING_VIRTUAL_WORLD=Vous êtes maintenant dans le monde virtuel.
+INTRO_HELP=Appuyez sur ESC pour accéder au menu et F1 pour de l'aide.
+
+// Login messages
+LOGIN_SET_NETWORK=Préparation de la couche réseau...\nVeuillez patienter.
+LOGIN_CONNECTING=Connexion au serveur {0}...
+LOGIN_DOWNLOAD_WORLD=Mise-à-jours du monde: {0}...
+LOGIN_LOADING_WORLD=Chargement du monde...
+LOGIN_LOADING=Chargement: {0}
+LOGIN_REFUSED=Accès refusé: {0}
+LOGIN_NO_RESPONSE=Serveur {0} ne répond pas.\nVeuillez essayer de nouveau plus tard.
+LOGIN_NO_USERNAME=vous devez fournir un code d'usager et un mot de passe.
+LOGIN_NO_PLAYER=Vous devez préalablement avoir configuré votre personnage.
+LOGIN_NO_NETWORK=Impossible d''établir une connexion réseau au serveur {0}.
+LOGIN_UNKNOWN_HOST=Impossible de résoudre l''adresse IP du serveur {0}.
+LOGIN_ALREADY_IN=Vous êtes déjà connecté au serveur.
+
+
+// Server messages
+SERVER_CLOSED_CONNECTION=Le monde virtuel n'est plus accessible...\n\nAppuyez sur OK pour retourner au menu principal.
+LOGGED_OFF=Connexion au serveur terminée
+LOGGED_IN=Vous êtes maintenant dans le monde virtuel.\n\nAppuyez sur ESC pour afficher le menu\nAppuyez sur F1 pour afficher l'aide\nAppuyez sur F5 pour afficher/cacher la fenêtre de texte.
+
+
+// Real Inventory..
+EINV_TITLE=Inventory List:
+EINV_NONE=You have no inventory items!
+EINV_ITEM=  {0}
+
+
+// Locale messages
+LOCALE_ENTITY_LEFT={0} a quitté.
+LOCALE_ENTITY_JOIN={0} vient d''arriver.
+
+// Commands
+COMMAND_UNKNOWN_COMMAND=Unknown command.  Type '.help' for a list of commands.
+COMMAND_ERROR_WITH_COMMAND=Error with command.  Type '.help' for a list of commands.
+COMMAND_HELP_HELP=The following commands are currently useable:\n .quit      Quit the client\n .login     Login to the default server\n Additionally, help is available for the following topics:\n rend      Rendering specific options\n loc       Locale specific options\n create    Player specific options\n filter    Word filtering options\n For example, type '.help rend' for help on render options
+COMMAND_LOGIN_INVALID=Invalid '.login' command.  See help.
+COMMAND_LOC_INVALID=Invalid '.loc' command.  See help.
+COMMAND_LOC_HELP=Currently available Locale options are:\n cd 0/1  disable/enable collision detection\n tf 0/1  disable/enable terrain following\n sd 0/1  disable/enable sound on collision\n For example, type '.loc cd 1' to enable collision detection
+COMMAND_FILTER_HELP=Currently available Filter options are:\n filter 0/1  disable/enable offensive word filtering\n For example, type '.filter 1' to replace offensive words by asterisks.
+COMMAND_CREATE_INVALID=Invalid '.create' command.  See help.
+COMMAND_CREATE_HELP=Currently available Player options are:\n .create <PlayerName> <skinID> <Language> <Sex>\n e.g. \".create Mila 34 en female\"\n <Language> can be either \"en\", or \"fr\"\n <Sex> can be either \"male\", \"female\" or \"neuter\"\n
+COMMAND_DELETE_INVALID=Invalid '.delete' command.  See help.
+COMMAND_LIST_INVALID=Invalid '.list' command.  See help.
+COMMAND_PROP_INVALID=Invalid '.prop' command.  See help.
+COMMAND_EXAMINE_INVALID=Invalid '.examine' command.  See help.
+COMMAND_REND_INVALID=Invalid '.rend' command.  See help.
+COMMAND_REND_NO_SUCH_ENTITY=Commande de rendu non-valide.  L'entité {0} n'existe pas.
+COMMAND_REND_EXT_CAMERA=La caméra externe est maintenant {0}.
+COMMAND_REND_HELP=Currently available Render options are:\n cd 0/1  disable/enable filling of poly that was collided with in blue\n tf 0/1  disable/enable filling of poly that character is currently above\n sb 0/1  disable/enable drawing of SkyBox\n For example, type '.rend cd 1' to enable
+COMMAND_SERVER_INVALID=Invalid '.server' command.  See help.
+COMMAND_IMPORT_INVALID=Invalid use of the '.import' command.
+COMMAND_EXEC=No such command script = {0}
+CMD_INFO_TRI_GEOM=Last frames geometry triangle count = {0}
+CMD_INFO_TRI_ALPHA=Last frames alpha triangle count = {0}
+CMD_INFO_TRI_SKIN=Last frames skin triangle count = {0}
+CMD_INFO_TRI_TOTAL=Last frames TOTAL triangle count = {0}
+CMD_INFO_CREATEDATE=This locale was created: {0}
+CMD_WHOAMI=Vous êtes {0}
+
+// PROP command outputs
+PROP_ENTITY_NOT_FOUND=Entity {0} not found.  Aborting...
+PROP_LIST_ALL=Liste de toutes les propriétés:
+PROP_LIST_NON_CORE=Liste de toutes les propriétés non de base:
+PROP_LIST_CORE=Liste de toutes les propriétés de base:
+PROP_PROPERTY=   {0} = {1}
+PROP_INVALID_PERMS=Vous n'avez pas l'autorité pour changer ces propriétés.
+PROP_POS_ERROR=[TRANSLATE]Error. Setting the position property requires 'x y z cellName'
+PROP_ME_IN_CELL=I am currently *in* the following cells:
+PROP_IN_CELL={0} is currently *in* the following cells:
+PROP_CELL_LIST={0}
+PROP_ME_SEE_CELL=I can see *into* the following cells:
+PROP_SEE_CELL={0} is currently *in* the following cells:
+
+// LIST command outputs
+LIST_LIST=Entities currently in Locale:
+LIST_ENTITY='{0}'
+
+// IMPORT command outputs
+IMPORT_CANNOT_INSTANCIATE=Couldn't instantiate entity.  Aborted.
+IMPORT_EXECUTION_ERROR=Error occured while executing '.import'. Aborting...
+IMPORT_NO_MIND=That Entity's Mind doesn't exist! Aborting import.
+IMPORT_ERROR_READING_MIND=Error reading in the Entitys Mind.
+IMPORT_NO_BODY=That Entity's Body doesn't exist! Aborting import.
+IMPORT_ERROR_READING_BODY=Error reading in the Entitys Body.
+IMPORT_NO_SKIN=That Entity's Skin doesn't exist! Aborting import.
+IMPORT_ERROR_READING_SKIN=Error reading in the Entitys Skin.
+
+// Misc message
+LAUNCH_BROWSER_CONFIRMATION=Ceci lance votre fureteur internet, voulez-vous le démarrer maintenant ?
+CANT_LAUNCH_BROWSER=Votre fureteur Internet ne peut pas être démarré car vous êtes en mode plein-écran. Vous pouvez changer cette option dans la section Graphique.
+PRELOADSKIN=Chargement des avatars en cours {0}
+NICK_NAME_INVALID=Votre nom de joueur est invalide!\nVeuillez en spécifier un autre.
+NICK_NAME_OFFENSIVE=Votre nom de joueur est offensif.\nVeuillez en spécifier un autre.
+INFO_TEXT_OFFENSIVE=Le texte d'informations est offensif.\nVeuillez en spécifier du texte different
+
+//For the product information panel
+MEDIA_LOAD_STATUS=Pourcentage chargée:
+NO_MEDIA_AVAILABLE=Pas de media de disponible
+RETAIL_PRICE=Prix:
+YOUR_PRICE=Votre prix:
+SOUND_PLAYBACK_NOT_ENABLED=Le son est désactivé.\nVous pouvez l'activer dans le menu Options.
+VIDEO_PLAYBACK_NOT_ENABLED=Le video est désactivé.\nVous pouvez l'activer dans le menu Options.
+
+//For the purchase basket panel
+PURCHASE_BASKET_TITLE=Panier d'achats
+BASKET_SUB_TOTAL=Sous-total:
+LIVE_HELP_TITLE=Confirmation Aide en Direct
+LIVE_HELP_QUESTION=Etes-vous sûr de vouloir contacter un agent du service à la clientèle?
+
+// Patch Manager related messages
+PATCH_ERROR=Un problème s'est produit lors de la mise à jour.\nVeuillez essayer de nouveau plus tard.
+PATCH_VERSION_CHECK=Vérification de la nécessité d'une mise à jour...
+PATCH_RESTART=Mise à jour complété.\nVeuillez cliquer sur 'OK' pour redémarrer l'application.
+PATCH_IN_PROGRESS=Mise à jour en cours...
+PATCH_FINISHUP=Phase finale de la mise à jour.\nVeuillez patienter...
+PATCH_WARNING=Mise à jour a été interrompu.\nVeuillez essayer de nouveau plus tard.
+PATCH_UNAVAILABLE=Aucun serveur pour une mise à jour est disponible présentement.\nVeuillez essayer de nouveau plus tard.
+PATCH_FOR_PACKAGE_ONLY=Le système de mise à jour fonctionne dans les packages seulement.\nUne mise à jour n'a pas été faite.\nVeuillez cliquer sur 'OK' pour terminer l'application.
+PATCH_COMPLETE=Mise à jour complété.\nVeuillez cliquer sur 'OK' pour terminer l'application.
+PATCH_NOT_REQUIRED=L'application est à date.\nAucune mise à jour est réquise.\nVeuillez cliquer sur 'OK' pour terminer l'application.
+PATCH_SYSTEM_TITLE=Dream Mechanics - Système de mise à jour
+
+// In Game Panel Button Label
+IN_GAME_PANEL_HELP_LABEL=Aide
+IN_GAME_PANEL_SETUP_LABEL=Options
+IN_GAME_PANEL_PURCHASE_BASKET_LABEL=Panier d'achats
+IN_GAME_PANEL_RESUME_LABEL=Retour
+IN_GAME_PANEL_QUIT_LABEL =Quitter
+
+// Setup Panel
+SETUP_TITLE=options
+SETUP_CONTROLS=contrôle
+SETUP_GRAPHICS=graphique
+SETUP_DISPLAY=affichage
+SETUP_SOUND=son
+SETUP_PARENTAL_CONTROL=contrôle parental
+SETUP_USER_ACCOUNT=compte usager
+SETUP_SET_DEFAULT_VALUES=valeurs optimales
+
+SETUP_INVERT_MOUSE=inverser la souris
+SETUP_MOUSE_SPEED=vitesse de souris
+
+SETUP_RESOLUTION=résolution
+SETUP_FULLSCREEN=plein écran
+SETUP_TEXTURE_DETAIL=détail de texture
+SETUP_TEXTURE_QUALITY=qualité de texture
+SETUP_TEXTURE_FILTER=interpolation
+SETUP_DRIVER=pilote graphique
+
+SETUP_NICKNAME=afficher surnom
+SETUP_CROSSHAIR=viseur
+SETUP_LANGUAGE=langue
+SETUP_STARTUP_TIP=afficher conseil
+SETUP_RENDER_VIDEO=activer le vidéo
+SETUP_REFLECTION=réflection
+SETUP_PARTICLE_DENSITY=densité de particules
+
+SETUP_ENABLE_SOUND=activer le son
+SETUP_AMBIENT_SOUNDS=son ambiant
+SETUP_SOUND_FX=effets sonores
+SETUP_SPEAKER_CONFIGURATION=hautes-parleurs
+
+SETUP_FILTER_LANGUAGE=censurer
+SETUP_ENABLE_CHAT=clavardage
+
+SETUP_PANEL_YES=oui
+SETUP_PANEL_NO=non
+SETUP_PANEL_TEXTURE_FILTERING_NEAREST=rapide
+SETUP_PANEL_TEXTURE_FILTERING_LINEAR=linéaire
+SETUP_PANEL_TEXTURE_DETAIL_LOW=basse
+SETUP_PANEL_TEXTURE_DETAIL_MEDIUM=moyenne
+SETUP_PANEL_TEXTURE_DETAIL_HIGH=élevée
+SETUP_PANEL_DRIVER_OPENGL=OpenGl
+SETUP_PANEL_DRIVER_DX7=DirectX 7
+SETUP_PANEL_DRIVER_DX8=DirectX 8.1
+SETUP_PANEL_16_BITS=16 bits
+SETUP_PANEL_32_BITS=32 bits
+SETUP_PANEL_FRENCH=français
+SETUP_PANEL_ENGLISH=anglais
+SETUP_PANEL_CHANGE_YOUR_PASSWORD=changer le mot de passe
+SETUP_PANEL_SET_YOUR_PASSWORD=activer un mot de passe
+SETUP_PANEL_ENTER_YOUR_PASSWORD=entrer le mot de passe
+SETUP_PANEL_ENTER_YOUR_NEW_PASSWORD=entrer le nouveau mot de passe
+SETUP_PANEL_ENTER_YOUR_OLD_PASSWORD=entrer l'ancien mot de passe
+SETUP_PANEL_CONFIRM_YOUR_NEW_PASSWORD=confirmer le mot de passe
+
+SETUP_PASSWORD_VERIFIED=mot de passe vérifié
+SETUP_PASSWORD_INCORRECT=mauvais mot de passe, réessayez
+SETUP_NO_PASSWORD_CREATED=aucun mot de passe créé
+SETUP_PASSWORD_CREATED=mot de passe créé
+SETUP_ENTER_YOUR_PASSWORD=entrez votre mot de passe
+SETUP_PASSWORD_DISABLED=mot de passe désactivé
+SETUP_PASSWORD_CREATED=mot de passe créé
+SETUP_PASSWORD_DOES_NOT_MATCH=vos mots de passe ne correspondent pas, réessayez
+
+SETUP_CONTROLS_INFO=modifie vos paramètres de souris
+SETUP_GRAPHICS_INFO=modifie vos paramètres graphique
+SETUP_DISPLAY_INFO=modifie vos paramètres d'affichage
+SETUP_SOUND_INFO=modifie vos paramètres sonores
+SETUP_PARENTAL_INFO=modifie vos paramètres de contrôle parental
+SETUP_DEFAULT_INFO=remet vos options à leur valeurs optimales
+
+SETUP_INVERT_MOUSE_INFO=modifie la façon dont la souris contrôle votre vue
+SETUP_MOUSE_SPEED_INFO=permet l'ajustement de la vitesse de votre souris
+
+SETUP_RESOLUTION_INFO=modifie la résolution de votre fenêtre
+SETUP_FULLSCREEN_INFO=active ou désactive le plein écran
+SETUP_TEXTURE_DETAIL_INFO=modifie la résolution des textures
+SETUP_TEXTURE_QUALITY_INFO=modifie la qualité couleur des textures
+SETUP_TEXTURE_FILTER_INFO=modifie l'interpolation des textures
+SETUP_DRIVER_INFO=modifie votre pilote graphique
+
+SETUP_NICKNAME_INFO=permet l'affichage ou non votre surnom aux autres
+SETUP_CROSSHAIR_INFO=modifie l'apparence de votre viseur
+SETUP_LANGUAGE_INFO=spécifie votre langue
+SETUP_STARTUP_TIP_INFO=active ou désactive l'affichage du conseil de démarrage
+SETUP_RENDER_VIDEO_INFO=active ou désactive l'affichage de vidéo
+SETUP_PARTICLE_DENSITY_INFO=ajuste la densité des particules
+SETUP_REFLECTION_INFO=active ou désactive les effets de réflection
+
+SETUP_ENABLE_SOUND_INFO=active ou désactive le son de l'application
+SETUP_AMBIENT_SOUND_INFO=ajuste le niveau sonore du son ambient
+SETUP_SOUND_FX_INFO=ajuste le niveau sonore des effets sonore
+SETUP_SPEAKER_CONFIGURATION_INFO=change la configuration de vos hautes-parlers
+
+SETUP_ENABLE_FILTER_INFO=active ou désactive la censure des mots indécents
+SETUP_ENABLE_CHAT_INFO=active ou désactive le clavardage
+SETUP_ENABLE_SET_PASSWORD_INFO=active, change ou désamorce un mot de passe
+
+SETUP_USER_NAME=nom de l'usager
+SETUP_USER_PASSWORD=mot de passe
+
+SETUP_OK_INFO=retourne et confirme vos modifications
+SETUP_CANCEL_INFO=retourne et annule vos modifications
+SETUP_PANEL_OVERWRITE_DEFAULT=Etes-vous certain de vouloir réinitialiser vos options ?
+SETUP_PANEL_NEED_RESTART=Vous devez redémarrer votre application pour que vos modifications prennent effets.
+
+SETUP_WELCOME_ENTER_YOUR_NAME=Vous devez spécifier votre nom d'usager ainsi que votre mot de passe afin de vous connecter au serveur.
+
+// information for the user about the options he can't change
+CANT_CHANGE_REFLECTION=Vous ne pouvez activer la réflection puisque votre système n'offre pas le support matériel nécessaire à cette option.
+CANT_CHANGE_VIDEO=Vous ne pouvez activer le vidéo puisque votre système n'offre pas le support pour activer cette option.
+CANT_CHANGE_GRAPHIC_API=Vous ne pouvez changer le pilote graphique puisque votre système n'en supporte qu'un seul.
+CANT_CHANGE_FULLSCREEN=Vous ne pouvez modifier cette option puisque votre carte graphique ne supporte pas les applications en mode fenêtre.
+
+// select character panel
+SELECT_CHARACTER_EMPTY=Aucun personnage.
+SELECT_CHARACTER_NEXT_CHARACTER=afficher le personnage suivant
+SELECT_CHARACTER_PREVIOUS_CHARACTER=afficher le personnage précédent
+SELECT_CHARACTER_NEW_CHARACTER=créer un nouveau joueur
+SELECT_CHARACTER_DELETE_CHARACTER=effacer le joueur courant
+SELECT_CHARACTER_EDIT_CHARACTER=modifier le joueur courant
+SELECT_CHARACTER_GO_BACK=retour au panneau précédent
+SELECT_CHARACTER_CLICK_AND_DRAG=cliquer et glisser pour faire tourner votre personnage
+SELECT_CHARACTER_CONFIRM_DELETE=Etes-vous certain de vouloir effacer ce personnage ?
+SELECT_CHARACTER_LOADING_CHARACTER=Chargement des personnages...
+SELECT_CHARACTER_LOADING=Chargement de:
+
+// edit character panel
+EDIT_CHARACTER_NAME_LABEL=Nom:
+EDIT_CHARACTER_DESCRIPTION_LABEL=Description:
+EDIT_CHARACTER_NEXT_BODY=affiche le modèle suivant
+EDIT_CHARACTER_PREVIOUS_BODY=affiche le modèle précédant
+EDIT_CHARACTER_NEXT_LOOK=affiche l'apparence suivante
+EDIT_CHARACTER_PREVIOUS_LOOK=affiche l'apparence précédente
+EDIT_CHARACTER_SAVE=enregistre votre personnage
+EDIT_CHARACTER_GO_BACK=retour au panneau précédent
+EDIT_CHARACTER_CLICK_AND_DRAG=cliquer et glisser pour faire tourner votre personnage
+EDIT_CHARACTER_NAME_INFO=taper le nom de votre personnage
+EDIT_CHARACTER_NAME_CANT_CHANGE=vous ne pouvez modifer le nom d'un personnage existant
+EDIT_CHARACTER_DESCRIPTION_INFO=taper une courte description de votre personnage
+EDIT_CHARACTER_MODEL_LABEL=Modèle:
+EDIT_CHARACTER_LOADING_MODEL=Chargement des modèles...
+EDIT_CHARACTER_LOADING=Chargement de:
+NAME_CONTAINS_BAD_WORD=Votre nom contient des mots offensifs, veuillez les supprimer puisqu'aucun mot offensif n'est permis.
+DESCRIPTION_CONTAINS_BAD_WORD=Votre description contient des mots offensifs, veuillez les supprimer puisqu'aucun mot offensif n'est permis.
+NAME_CONTAINS_WHITE_SPACE=Votre nom ne peut contenir d'espaces, veuillez les enlever.
+NO_NAME_FOR_CHARACTER=Aucun personnage ne sera créer puisqu'aucun nom n'a été spécifié.
+
+POPUP_YES=oui
+POPUP_NO=non
+POPUP_CANCEL=annuler
+POPUP_OK=ok
+
+WS_PLAYER_SELECTION_INFO=sélectionner votre personnage
+WS_SETUP_INFO=configurer vos options
+WS_HELP_INFO=lancer l'aide en ligne
+WS_BUDDY_LIST_INFO=modifier votre liste de contacts
+WS_GO_INFO=démarrer !
+WS_QUIT_INFO=quitter
+WS_CONNECTING_WITH=cliquer pour démarrer avec {0}
+YOU_MUST_CREATE_A_PLAYER=Vous devez créer un joueur avant de démarrer. Cliquer ok pour créer un joueur. Lorsque votre joueur sera créé, vous pourrez cliquer sur les bouttons retour afin de vous connecter.
+
+ERROR_PURCHASE_BASKET_NOT_FOUND=Votre panier d'achat n'a pas été trouvé.\nVeuillez contacter votre administrateur système pour de plus amples informations.
+COPYRIGHT=©2004 DC STudios. Tous droits réservés.
+
+WORLD_GEOMETRY_UNAVAILABLE=Les données géometriques ne sont pas disponibles présentement.\nVeuillez essayer de nouveau plus tard.
+
+// health indicator
+HEALTH_LABEL=vie
+
+//auto-profiler
+STARTING_AUTO_PROFILER=Démarrage de l'optimiseur...
+AUTO_PROFILER_DONE=L'optimiseur a terminé.
+
+//Avertissement de ne pas modifier browser.cfg
+BROWSER_CFG_WARNING=Ce fichier ne doit JAMAIS être édité à la main. Utiliser le panneau d'options pour toutes modifications.
+
+// Speaker configuration values
+SPEAKER_CONFIG_1=Headphones
+SPEAKER_CONFIG_2=Monaural (mono)
+SPEAKER_CONFIG_3=Quadraphonic
+SPEAKER_CONFIG_4=Stereo (défaut)
+SPEAKER_CONFIG_5=Surround
+SPEAKER_CONFIG_6=5 Point

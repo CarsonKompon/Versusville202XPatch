@@ -1,0 +1,32 @@
+-=CHANGELOG=-
+
+  +Restored username service
+  +Restored score service
+  -Updated score service to serve multiple leaderboards
+
+  Bug fixes:
+  -Vault now requires code to open in Residence Evil
+
+  * Fix sensitivity while in-air
+  * Fix rotation speed of pickups in Wasteball/Grave Rave
+
+
+  * = Not done yet but started/planned
+
+
+String List Changes:
+
+  WINDOW_TITLE=Kenny vs Spenny - Versusville 2021.1 PATCH
+  MENU_COMMON_PLAN_NUMBER=kvs 2021.1
+
+  + jphn's changes
+
+
+URL.txt Changes:
+
+  URL=http://servlet.versusville.com:3000/servlet
+
+
+Other File Changes:
+
+  Maybe reduce the volume of the menu music

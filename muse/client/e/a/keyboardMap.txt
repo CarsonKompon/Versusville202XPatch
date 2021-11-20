@@ -1,0 +1,130 @@
+#Fields description
+#key modifier (-1 if none), key, action, description
+#******************************************
+#Specific key actions
+#******************************************
+-1,280,700,Key : PageUp Mapped to action : SCROLL_CHAT_UP
+-1,281,701,Key : PageDown Mapped to action : SCROLL_CHAT_DOWN
+-1,286,503,Key F5 Mapped to action : CLOSE_GUI
+-1,109,500,Key m Mapped to action : TOGGLE_CHATLINE_FOCUS
+-1,287,601,Key F6 Mapped to action : TOGGLE_MOUSE_LOOK
+-1,291,303,Key F10 Mapped to action : TOGGLE_FRAME_TIMER
+-1,292,702,Key F11 Mapped to action : EXPAND_CHAT_WINDOW
+-1,293,703,Key F12 Mapped to action : SHRINK_CHAT_WINDOW
+-1,282,602,Key F1 Mapped to action : SHOW_HELP
+-1,285,1003,Key F4 Mapped to action : TOGGLE_PHONE
+
+
+-1,350,814,Key mouse_left (left click) Mapped to action : USE_ITEM_HAND
+-1,351,816,Key mouse_middle (middle click) Mapped to action : DROP_ITEM
+-1,8,816,Key Backspace Mapped to action : DROP_ITEM
+-1,352,813,Key mouse_right (right click) Mapped to action : USE_ITEM_WORLD
+310,352,813,mac: Key Command-Left_click (right click) Mapped to action : USE_ITEM_WORLD
+-1,102,813,mac: Key F Mapped to action : USE_ITEM_WORLD
+96,352,213,Key mouse_right (right click) Mapped to action : EXAMINE_FOCUSED_ENTITY
+-1,112,817,Key P Mapped to action : PUTAWAY_ITEM
+
+-1,290,807,Key F9 Mapped to action : SHOW_ITEM_SELECTOR
+-1,91,808,Key : [ Mapped to action : SELECT_NEXT
+-1,93,809,Key : ] Mapped to action : SELECT_PREVIOUS
+-1,354,809,Key : mouse wheel down Mapped to action : SELECT_PREVIOUS
+-1,353,808,Key : mouse wheel up Mapped to action : SELECT_NEXT
+-1,122,810,Key x Mapped to action : ZOOM
+-1,59,1000,Key ; Mapped to action : RELOAD_WEAPON
+-1,256,207,Key KpdIns Mapped to action : JUMP 
+-1,32,207,Key SpaceBar Mapped to action : JUMP /
+-1,306,811,Key : L-ctrl Mapped to action : TRIGGER_ITEM
+-1,307,811,Key : R-alt Mapped to action : TRIGGER_ITEM
+-1,48,900,Key : 0 activates player item 0 : ACTIVATE_ZERO
+-1,49,901,Key : 0 activates player item 0 : ACTIVATE_ONE
+-1,50,902,Key : 0 activates player item 0 : ACTIVATE_TWO
+-1,51,903,Key : 0 activates player item 0 : ACTIVATE_THREE
+-1,52,904,Key : 0 activates player item 0 : ACTIVATE_FOUR
+-1,53,905,Key : 0 activates player item 0 : ACTIVATE_FIVE
+-1,54,906,Key : 0 activates player item 0 : ACTIVATE_SIX
+-1,55,907,Key : 0 activates player item 0 : ACTIVATE_SEVEN
+-1,56,908,Key : 0 activates player item 0 : ACTIVATE_EIGHT
+-1,57,909,Key : 0 activates player item 0 : ACTIVATE_NINE
+-1,104,209,Key : H Mapped to action : SALUT 
+-1,101,210,Key : E Mapped to action : PUNCH 
+-1,113,215,Key : Q Mapped to action : KICK 
+-1,103,218,Key : G Mapped to action : SPECIAL_MOVE 
+-1,110,502,Key : N Mapped to action : TOGGLE_NIGHT_VISION
+
+#******************************************
+#Generic key actions
+#******************************************
+-1,273,200,Key upArrow Mapped to action : MOVE_FORWARD
+-1,119,200,Key w Mapped to action : MOVE_FORWARD
+-1,274,201,Key downArrow Mapped to action : MOVE_BACKWARD
+-1,115,201,Key s Mapped to action : MOVE_BACKWARD
+-1,276,202,Key leftArrow Mapped to action : MOVE_ROTATE_LEFT
+-1,275,203,Key rightArrow Mapped to action : MOVE_ROTATE_RIGHT
+#308,276,205,Key alt-leftArrow Mapped to action : MOVE_LEFT
+#307,276,205,Key alt-leftArrow Mapped to action : MOVE_LEFT
+#308,275,206,Key alt-rightArrow Mapped to action : MOVE_RIGHT
+#307,275,206,Key alt-rightArrow Mapped to action : MOVE_RIGHT
+-1,307,216,Key alt Mapped to action : MOVE_STFMOD
+-1,308,216,Key alt Mapped to action : MOVE_STFMOD
+-1,97,205,Key a Mapped to action : MOVE_LEFT
+-1,100,206,Key d Mapped to action : MOVE_RIGHT
+-1,304,204,Key shift Mapped to action : MOVE_RUNMOD
+-1,99,208,Key c Mapped to action : CROUCH
+-1,305,208,Key R_ctrl Mapped to action : CROUCH
+-1,316,211,Key printScrn Mapped to action : SCREENSHOT (linux)
+-1,317,211,Key printScrn Mapped to action : SCREENSHOT (windows)
+96,317,217,Key printScrn Mapped to action : RECORD (windows)
+-1,283,300,Key F2 Mapped to action : TOGGLE_VIEW_MODE
+-1,118,300,Key v Mapped to action : TOGGLE_VIEW_MODE
+-1,284,309,Key F3 Mapped to action : TOGGLE_RUN
+-1,114,309,Key r Mapped to action : TOGGLE_RUN
+-1,289,211,Key F8 Mapped to action : SCREENSHOT
+
+-1,13,1001,Key Enter Mapped to action : CLOSE_PANEL
+-1,111,1002,Key o Mapped to action : TOGGLE_OBJECTIVES
+310,113,100,mac: Key command+q Mapped to action : QUIT 
+
+# Joystick defines
+-1,264,200,Joy1 UP D-Pad (Keystroke Mode) Mapped to action :MOVE_FORWARD 
+-1,258,201,Joy1 DOWN D-Pad (Keystroke Mode) Mapped to action : MOVE_BACKWARD
+-1,260,202,Joy1 LEFT D-Pad (Keystroke Mode) Mapped to action : MOVE_ROTATE_LEFT
+-1,262,203,Joy1 RIGHT D-Pad (Keystroke Mode) Mapped to action : MOVE_ROTATE_RIGHT
+-1,373,200,Joy1 HATUP Mapped to action :MOVE_FORWARD 
+-1,374,201,Joy1 HATDOWN Mapped to action : MOVE_BACKWARD
+-1,376,202,Joy1 HATLEFT Mapped to action : MOVE_LEFT
+-1,375,203,Joy1 HATRIGHT Mapped to action : MOVE_RIGHT
+-1,361,207,Joy1 BUTTON1 Mapped to action : JUMP
+-1,362,814,Joy1 BUTTON2 Mapped to action : USE_ITEM_HAND
+-1,363,813,Joy1 BUTTON3 Mapped to action : USE_ITEM_WORLD
+-1,364,300,Joy1 BUTTON4 Mapped to action : TOGGLE_VIEW_MODE
+-1,365,810,Joy1 BUTTON5 Mapped to action : ZOOM
+-1,366,809,Joy1 BUTTON6 Mapped to action : SELECT_NEXT
+-1,367,814,Joy1 BUTTON7_LEFT Mapped to action : USE_ITEM_HAND
+-1,368,814,Joy1 BUTTON8_RIGHT Mapped to action : USE_ITEM_HAND
+-1,369,309,Joy1 BUTTON9 Mapped to action : TOGGLE_RUN
+
+#
+#All debugging functions have the d modifier
+96,113,100,Key q Mapped to action : QUIT With modifier `
+96,115,301,Key s Mapped to action : TOGGLE_SOUND With modifier d
+96,116,302,Key t Mapped to action : TOGGLE_TEXTURES With modifier d
+96,111,305,Key o Mapped to action : TOGGLE_Draw_OPAQUE With modifier d
+96,119,306,Key w Mapped to action : TOGGLE_WIREFRAME With modifier d
+96,107,308,Key k Mapped to action : TOGGLE_DISPLAY_KEYCODE With modifier d
+96,99,400,Key c Mapped to action : TOGGLE_CAMERA_MODE With modifier d
+96,120,410,Key x Mapped to action : TOGGLE_EXTERNAL_CAMERA_MODE With modifier d
+96,273,401,Key upArrow Mapped to action : MOVE_CAMERA_FORWARD With modifier d
+96,274,402,Key downArrow Mapped to action : MOVE_CAMERA_BACKWARD With modifier d
+96,276,403,Key leftArrow Mapped to action : MOVE_CAMERA__ROTATE_LEFT With modifier d
+96,275,404,Key rightArrow Mapped to action : MOVE_CAMERA_ROTATE_RIGHT With modifier d
+96,264,405,Key KeyPadUpArrow Mapped to action : MOVE_CAMERA_UP With modifier d
+96,258,406,Key KeyPadDownArrow Mapped to action : MOVE_CAMERA_DOWN With modifier d
+96,260,407,Key KeyPadLeftArrow Mapped to action : MOVE_CAMERA_LEFT With modifier d
+96,262,408,Key KeyPadRightArrow Mapped to action : MOVE_CAMERA_RIGHT With modifier d
+96,104,409,Key h Mapped to action : MOVE_CAMERA_HOME With modifier d
+96,282,409,Key F1 Mapped to action : CELL_RENDERING_1 With modifier d
+96,283,409,Key F2 Mapped to action : CELL_RENDERING_2 With modifier d
+96,284,409,Key F3 Mapped to action : CELL_RENDERING_3 With modifier d
+96,106,319,Key j Mapped to action : DEBUG_JUMP With modifier d
+98,112,1015, Unused for now
+98,108,1016, Unused for now
