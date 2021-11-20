@@ -1,0 +1,317 @@
+// Intro messages
+INTRO_ENTERING_VIRTUAL_WORLD=You are now in the virtual world.
+INTRO_HELP=Press the ESC key to display the menu and F1 for help.
+
+// Login messages
+LOGIN_SET_NETWORK=Setting up the network...\nPlease wait.
+
+LOGIN_CONNECTING=Connecting with server {0}...
+LOGIN_DOWNLOAD_WORLD=Updating world: {0}...
+LOGIN_LOADING_WORLD=Loading world...
+LOGIN_LOADING=Loading: {0}
+LOGIN_REFUSED=Login refused: {0}.
+LOGIN_NO_RESPONSE=Server {0} is not responding.\nPlease try again later.
+LOGIN_NO_USERNAME=You must supply a username/password pair.
+LOGIN_NO_PLAYER=You must first create a Player!
+LOGIN_NO_NETWORK=Unable to establish a network connection to server {0}.
+LOGIN_UNKNOWN_HOST=Unable to resolve IP address of server {0}.
+LOGIN_ALREADY_IN=You are already logged into the server!
+
+// Server messages
+SERVER_CLOSED_CONNECTION=The virtual world is no longer accessible... \n\nPress OK to return to the main menu.
+
+// Real Inventory..
+EINV_TITLE=Inventory List:
+EINV_NONE=You have no inventory items!
+EINV_ITEM=  {0}
+
+// Locale messages
+LOCALE_ENTITY_LEFT={0} has left.
+LOCALE_ENTITY_JOIN={0} joined.
+
+// Commands
+COMMAND_UNKNOWN_COMMAND=Unknown command.  Type '.help' for a list of commands.
+COMMAND_ERROR_WITH_COMMAND=Error with command.  Type '.help' for a list of commands.
+COMMAND_HELP_HELP=The following commands are currently useable:\n .quit      Quit the client\n .login     Login to the default server\n Additionally, help is available for the following topics:\n rend      Rendering specific options\n loc       Locale specific options\n create    Player specific options\n filter    Word filtering options\n For example, type '.help rend' for help on render options
+COMMAND_LOGIN_INVALID=Invalid '.login' command.  See help.
+COMMAND_LOC_INVALID=Invalid '.loc' command.  See help.
+COMMAND_LOC_HELP=Currently available Locale options are:\n cd 0/1  disable/enable collision detection\n tf 0/1  disable/enable terrain following\n sd 0/1  disable/enable sound on collision\n For example, type '.loc cd 1' to enable collision detection
+COMMAND_FILTER_HELP=Currently available Filter options are:\n filter 0/1  disable/enable offensive word filtering\n For example, type '.filter 1' to replace offensive words by asterisks.
+COMMAND_CREATE_INVALID=Invalid '.create' command.  See help.
+COMMAND_CREATE_HELP=Currently available Player options are:\n .create <PlayerName> <skinID> <Language> <Sex>\n e.g. \".create Mila 34 en female\"\n <Language> can be either \"en\", or \"fr\"\n <Sex> can be either \"male\", \"female\" or \"neuter\"\n
+COMMAND_DELETE_INVALID=Invalid '.delete' command.  See help.
+COMMAND_LIST_INVALID=Invalid '.list' command.  See help.
+COMMAND_PROP_INVALID=Invalid '.prop' command.  See help.
+COMMAND_EXAMINE_INVALID=Invalid '.examine' command.  See help.
+COMMAND_REND_INVALID=Invalid '.rend' command.  See help.
+COMMAND_REND_NO_SUCH_ENTITY=Invalid '.rend' command.  The specified entity {0} does not exist.
+COMMAND_REND_EXT_CAMERA=The external camera is now set to {0}.
+COMMAND_REND_HELP=Currently available Render options are:\n cd 0/1  disable/enable filling of poly that was collided with in blue\n tf 0/1  disable/enable filling of poly that character is currently above\n sb 0/1  disable/enable drawing of SkyBox\n For example, type '.rend cd 1' to enable
+COMMAND_SERVER_INVALID=Invalid '.server' command.  See help.
+COMMAND_IMPORT_INVALID=Invalid use of the '.import' command.
+COMMAND_EXEC=No such command script = {0}
+CMD_INFO_TRI_GEOM=Last frames geometry triangle count = {0}
+CMD_INFO_TRI_ALPHA=Last frames alpha triangle count = {0}
+CMD_INFO_TRI_SKIN=Last frames skin triangle count = {0}
+CMD_INFO_TRI_TOTAL=Last frames TOTAL triangle count = {0}
+CMD_INFO_CREATEDATE=This locale was created: {0}
+CMD_WHOAMI=You are {0}
+
+// PROP command outputs
+PROP_ENTITY_NOT_FOUND=Entity {0} not found.  Aborting...
+PROP_LIST_ALL=List of all properties:
+PROP_LIST_NON_CORE=List of all non-core properties:
+PROP_LIST_CORE=List of all core properties:
+PROP_PROPERTY=   {0} = {1}
+PROP_POS_ERROR=Error. Setting the position property requires 'x y z cellName'
+PROP_INVALID_PERMS=You do not have access to these properties.
+PROP_ME_IN_CELL=I am currently *in* the following cells:
+PROP_IN_CELL={0} is currently *in* the following cells:
+PROP_CELL_LIST={0}
+PROP_ME_SEE_CELL=I can see *into* the following cells:
+PROP_SEE_CELL={0} is currently *in* the following cells:
+
+// LIST command outputs
+LIST_LIST=Entities currently in Locale:
+LIST_ENTITY='{0}'
+
+// IMPORT command outputs
+IMPORT_CANNOT_INSTANCIATE=Couldn't instantiate entity.  Aborted.
+IMPORT_EXECUTION_ERROR=Error occured while executing '.import'. Aborting...
+IMPORT_NO_MIND=That Entity's Mind doesn't exist! Aborting import.
+IMPORT_ERROR_READING_MIND=Error reading in the Entitys Mind.
+IMPORT_NO_BODY=That Entity's Body doesn't exist! Aborting import.
+IMPORT_ERROR_READING_BODY=Error reading in the Entitys Body.
+IMPORT_NO_SKIN=That Entity's Skin doesn't exist! Aborting import.
+IMPORT_ERROR_READING_SKIN=Error reading in the Entitys Skin.
+
+// Misc message
+LAUNCH_BROWSER_CONFIRMATION=This will launch a web browser, do you want to launch it now ?
+CANT_LAUNCH_BROWSER=The web browser cannot be launched in full-screen mode.  You can change this option in Graphics.
+PRELOADSKIN=Loading avatars {0}
+NICK_NAME_INVALID=Invalid player name!\nPlease specify a new one.
+NICK_NAME_OFFENSIVE=Player name may not contain offensive language.\nPlease enter a different name.
+INFO_TEXT_OFFENSIVE=General Info text may not contain offensive language.\nPlease enter different text.
+
+//For the product information panel
+MEDIA_LOAD_STATUS=Percentage loaded:
+NO_MEDIA_AVAILABLE=No media available
+RETAIL_PRICE=Price:
+YOUR_PRICE=Your price:
+SOUND_PLAYBACK_NOT_ENABLED=Sound playback is not enabled.\nYou can turn it on in the Options panel.
+VIDEO_PLAYBACK_NOT_ENABLED=Video playback is not enabled.\nYou can turn it on in the Options panel.
+
+//For the purchase basket panel
+PURCHASE_BASKET_TITLE=Purchase Basket
+BASKET_SUB_TOTAL=Sub-total:
+LIVE_HELP_TITLE=Live Help Confirmation
+LIVE_HELP_QUESTION=Our Net Reps are available from 8 AM to 11 PM EST, seven days a week. To chat with a Net Rep now, click the "Yes" button.
+
+// Patch Manager related messages
+PATCH_ERROR=There was a problem patching.\nPlease try reconnecting later.
+PATCH_VERSION_CHECK=Checking version with server...
+PATCH_RESTART=Patching has completed.\nClick 'OK' to restart the application.
+PATCH_IN_PROGRESS=Patching in progress...
+PATCH_FINISHUP=Finalizing patch.\nPlease wait...
+PATCH_WARNING=Patching was interrupted/cancelled.\nPlease try reconnecting later.
+PATCH_UNAVAILABLE=No patch servers are currently available.\nPlease try reconnecting later.
+PATCH_FOR_PACKAGE_ONLY=The Patch System works on packages only.\nNo Patching will be done.\nClick 'OK' to exit.
+PATCH_COMPLETE=Patching has completed.\nClick 'OK' to exit the application.
+PATCH_NOT_REQUIRED=The client is up to date.\nNo Patch is required.\nClick 'OK' to exit the application.
+PATCH_SYSTEM_TITLE=Dream Mechanics - Patch System
+
+// In Game Panel Button Label
+IN_GAME_PANEL_HELP_LABEL=Help
+IN_GAME_PANEL_SETUP_LABEL=Setup
+IN_GAME_PANEL_PURCHASE_BASKET_LABEL=Purchase Basket
+IN_GAME_PANEL_RESUME_LABEL=Resume
+IN_GAME_PANEL_QUIT_LABEL=Quit
+
+// Setup Panel
+SETUP_TITLE=setup
+SETUP_CONTROLS=controls
+SETUP_GRAPHICS=graphics
+SETUP_DISPLAY=display
+SETUP_SOUND=sound
+SETUP_PARENTAL_CONTROL=parental control
+SETUP_USER_ACCOUNT=user account
+SETUP_SET_DEFAULT_VALUES=auto configure
+
+SETUP_INVERT_MOUSE=invert mouse
+SETUP_MOUSE_SPEED=mouse speed
+
+SETUP_RESOLUTION=resolution
+SETUP_FULLSCREEN=full-screen
+SETUP_TEXTURE_DETAIL=texture detail
+SETUP_TEXTURE_QUALITY=texture quality
+SETUP_TEXTURE_FILTER=texture filter
+SETUP_DRIVER=driver
+
+SETUP_NICKNAME=nickname
+SETUP_CROSSHAIR=crosshair
+SETUP_LANGUAGE=language
+SETUP_STARTUP_TIP=tip on startup
+SETUP_RENDER_VIDEO=render video
+SETUP_PARTICLE_DENSITY=particle density
+SETUP_REFLECTION=reflection
+
+SETUP_ENABLE_SOUND=enable sound
+SETUP_AMBIENT_SOUNDS=ambient sounds
+SETUP_SOUND_FX=sound effects
+SETUP_SPEAKER_CONFIGURATION=speakers
+
+SETUP_FILTER_LANGUAGE=filter language
+SETUP_ENABLE_CHAT=enable chat
+
+SETUP_PANEL_YES=yes
+SETUP_PANEL_NO=no
+SETUP_PANEL_TEXTURE_FILTERING_NEAREST=nearest
+SETUP_PANEL_TEXTURE_FILTERING_LINEAR=linear
+SETUP_PANEL_TEXTURE_DETAIL_LOW=low
+SETUP_PANEL_TEXTURE_DETAIL_MEDIUM=medium
+SETUP_PANEL_TEXTURE_DETAIL_HIGH=high
+SETUP_PANEL_DRIVER_OPENGL=OpenGl
+SETUP_PANEL_DRIVER_DX7=DirectX 7
+SETUP_PANEL_DRIVER_DX8=DirectX 8.1
+SETUP_PANEL_16_BITS=16 bits
+SETUP_PANEL_32_BITS=32 bits
+SETUP_PANEL_FRENCH=French
+SETUP_PANEL_ENGLISH=English
+SETUP_PANEL_CHANGE_YOUR_PASSWORD=change your password
+SETUP_PANEL_SET_YOUR_PASSWORD=set a password
+SETUP_PANEL_ENTER_YOUR_PASSWORD=enter your password
+SETUP_PANEL_ENTER_YOUR_NEW_PASSWORD=enter your new password
+SETUP_PANEL_ENTER_YOUR_OLD_PASSWORD=enter your old password
+SETUP_PANEL_CONFIRM_YOUR_NEW_PASSWORD=confirm your new password
+
+SETUP_PASSWORD_VERIFIED=password verified
+SETUP_PASSWORD_INCORRECT=incorrect password. please try again
+SETUP_NO_PASSWORD_CREATED=no password created
+SETUP_PASSWORD_CREATED=password created
+SETUP_ENTER_YOUR_PASSWORD=enter your new password
+SETUP_PASSWORD_DISABLED=password has been disabled
+SETUP_PASSWORD_CREATED=password created
+SETUP_PASSWORD_DOES_NOT_MATCH=password does not match. please try again
+
+SETUP_CONTROLS_INFO=change the mouse options
+SETUP_GRAPHICS_INFO=change the graphics options
+SETUP_DISPLAY_INFO=change the display options
+SETUP_SOUND_INFO=change the sound options
+SETUP_PARENTAL_INFO=change the parental options
+SETUP_DEFAULT_INFO=reset your options to their optimal values
+
+SETUP_INVERT_MOUSE_INFO=change how your mouse controls your view
+SETUP_MOUSE_SPEED_INFO=slide the button to the right to speed-up your in-world mouse
+
+SETUP_RESOLUTION_INFO=change the window's resolution
+SETUP_FULLSCREEN_INFO=toggle full-screen mode
+SETUP_TEXTURE_DETAIL_INFO=change the texture's internal scaling
+SETUP_TEXTURE_QUALITY_INFO=change the texture's color depth
+SETUP_TEXTURE_FILTER_INFO=change how textures are filtered
+SETUP_DRIVER_INFO=chose your graphic driver
+
+SETUP_NICKNAME_INFO=show or hide your nickname to others
+SETUP_CROSSHAIR_INFO=change the look of your crosshair
+SETUP_LANGUAGE_INFO=change the display language
+SETUP_STARTUP_TIP_INFO=toggle the startup tip
+SETUP_RENDER_VIDEO_INFO=toggle the video rendering
+SETUP_PARTICLE_DENSITY_INFO=slide the button to the right to increase the particle density
+SETUP_REFLECTION_INFO=toggle the reflection effects
+
+SETUP_ENABLE_SOUND_INFO=toggle the sound of the application
+SETUP_AMBIENT_SOUND_INFO=slide the button to the right to increase the volume of the ambient sound
+SETUP_SOUND_FX_INFO=slide the button to the right to increase the volume of the sound effects
+SETUP_SPEAKER_CONFIGURATION_INFO=change the speaker configuration
+
+SETUP_ENABLE_FILTER_INFO=enable or disable the chat filtering
+SETUP_ENABLE_CHAT_INFO=enable or disable chat
+SETUP_ENABLE_SET_PASSWORD_INFO=set a password, enter an empty password to unset
+
+SETUP_USER_NAME=user name
+SETUP_USER_PASSWORD=user password
+
+SETUP_OK_INFO=go back and confirm the changes
+SETUP_CANCEL_INFO=go back and cancel the changes
+SETUP_PANEL_OVERWRITE_DEFAULT=Are you sure you want to override your values with the default one ?
+SETUP_PANEL_NEED_RESTART=You must restart your application to make your modifications effective.
+
+SETUP_WELCOME_ENTER_YOUR_NAME=You must provide a user name and a password to connect to the server.
+
+// information for the user about the options he can't change
+CANT_CHANGE_REFLECTION=You can't enable reflection since your system does not have the capacity to render it.
+CANT_CHANGE_VIDEO=You can't enable video since your system does not have the capacity to render it. 
+CANT_CHANGE_GRAPHIC_API=You can't change your graphic driver since only one graphic API is supported by your system.
+CANT_CHANGE_FULLSCREEN=You can't disable fullscreen since your graphic card does not support windowed applications.
+
+// select character panel
+SELECT_CHARACTER_EMPTY=No character.
+SELECT_CHARACTER_NEXT_CHARACTER=get your next character
+SELECT_CHARACTER_PREVIOUS_CHARACTER=get your previous character
+SELECT_CHARACTER_NEW_CHARACTER=create a new character
+SELECT_CHARACTER_DELETE_CHARACTER=delete this character
+SELECT_CHARACTER_EDIT_CHARACTER=edit this character
+SELECT_CHARACTER_GO_BACK=go back
+SELECT_CHARACTER_CLICK_AND_DRAG=click and drag to rotate the character
+SELECT_CHARACTER_CONFIRM_DELETE=Are you sure you want to permanently delete this character ?
+SELECT_CHARACTER_LOADING_CHARACTER=Loading the characters...
+SELECT_CHARACTER_LOADING=Loading:
+
+
+// edit character panel
+EDIT_CHARACTER_NAME_LABEL=Name:
+EDIT_CHARACTER_DESCRIPTION_LABEL=Description:
+EDIT_CHARACTER_NEXT_BODY=get the next model
+EDIT_CHARACTER_PREVIOUS_BODY=get the previous model
+EDIT_CHARACTER_NEXT_LOOK=get the next look
+EDIT_CHARACTER_PREVIOUS_LOOK=get the previous look
+EDIT_CHARACTER_SAVE=save the character
+EDIT_CHARACTER_GO_BACK=go back
+EDIT_CHARACTER_CLICK_AND_DRAG=click and drag to rotate the character
+EDIT_CHARACTER_NAME_INFO=enter the name of your character
+EDIT_CHARACTER_NAME_CANT_CHANGE=you can't change the name of an existing character
+EDIT_CHARACTER_DESCRIPTION_INFO=enter a short description of your character
+EDIT_CHARACTER_MODEL_LABEL=Model:
+EDIT_CHARACTER_LOADING_MODEL=Loading the models...
+EDIT_CHARACTER_LOADING=Loading:
+NAME_CONTAINS_BAD_WORD=Your name contains offensive words which are not allowed. Please enter a new name without any offensive words.
+DESCRIPTION_CONTAINS_BAD_WORD=Your description contains offensive words which are not allowed. Please enter a new description without any offensive words.
+NAME_CONTAINS_WHITE_SPACE=Your name cannot contain any spaces. Please remove the spaces.
+NO_NAME_FOR_CHARACTER=No character will be created since no name has been specified.
+
+POPUP_YES=yes
+POPUP_NO=no
+POPUP_CANCEL=cancel
+POPUP_OK=ok
+
+// world selection contextual info
+WS_PLAYER_SELECTION_INFO=select your character
+WS_SETUP_INFO=configure your options
+WS_HELP_INFO=launch the online help
+WS_BUDDY_LIST_INFO=edit and access your buddy list
+WS_GO_INFO=click to start !
+WS_CONNECTING_WITH=click to enter the world with {0}
+WS_QUIT_INFO=quit the application
+YOU_MUST_CREATE_A_PLAYER=You must create a player before starting. Click ok to create a player. You can than click the back buttons to come back.
+
+ERROR_PURCHASE_BASKET_NOT_FOUND=The purchase basket for your player could not be found.\nContact your system administrator for more information.
+COPYRIGHT=©2004 DC Studios. All rights reserved.
+
+WORLD_GEOMETRY_UNAVAILABLE=World geometry is not currently available.\nPlease try reconnecting later.
+
+// health indicator
+HEALTH_LABEL=health
+
+//auto-profiler
+STARTING_AUTO_PROFILER=Starting auto-profiler...
+AUTO_PROFILER_DONE=Auto-profiler done.
+
+//browser.cfg warning
+BROWSER_CFG_WARNING=This file should NEVER be modified manually. Please use the browser setup panel to make modifications.
+
+// Speaker configuration values
+SPEAKER_CONFIG_1=Headphones
+SPEAKER_CONFIG_2=Monaural (mono)
+SPEAKER_CONFIG_3=Quadraphonic
+SPEAKER_CONFIG_4=Stereo (default)
+SPEAKER_CONFIG_5=Surround
+SPEAKER_CONFIG_6=5 Point
