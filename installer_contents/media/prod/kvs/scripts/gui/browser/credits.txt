@@ -1,0 +1,60 @@
+0|Executive Producer          Peter Williamson
+                            Ira Levy
+                            Michael McGuigan
+
+Producer                    Dorothy Vreeker
+
+|Project Manager             Stephane Roy
+
+Art Director                Dominic Roussy
+
+Music and Sound Effects     Steve Szczepkowski
+
+|Design Director             Ollie Sykes
+
+Level Designer              Lon Benettar
+
+Tester                      Simon Graveline
+
+|Lead Artist                 Luis Alonso
+
+Artists                     Sarah Chamaillard
+                            Luc Cote
+                            Emmanual Garcia
+                            Nicolas Longchamps
+                            Betina Marquis
+                            Tina Mondugno
+                            Aline Schleger
+                            Scot Thompson
+
+|1|Technical Director          Regis Geoffrion
+
+Team Leader                 Mathieu Berube
+
+Lead Programmer             Stephen Watson
+
+Programmers                 Adam King
+                            Stephanie Marchand
+                            Jean-Noe Morissette
+                            Jonathan Villani
+
+
+|Based on the television program 'Kenny vs Spenny' 
+created by Spencer Rice and Kenny Hotz
+
+Produced with the financial participation of 
+Telefilm Canada, Administrator of the Canada 
+New Media Fund, funded by the Department of
+Canadian Heritage
+
+Produced with the financial participation of the
+Bell Broadcast and New Media Fund and
+CBC Television
+
+|SDL Library               see LGPL-sources.html
+
+SMPEG Library             see LGPL-sources.html
+
+This software is based in part on the work of
+the Independent JPEG Group, and Group 42 for the
+PNG Reference Library.

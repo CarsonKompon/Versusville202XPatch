@@ -1,0 +1,5 @@
+#The location of the servlet
+URL=http://servlet.versusville.com:3000/servlet
+#http://www.cbc.ca/kvs/servlet/KvsServlet
+# end of file
+

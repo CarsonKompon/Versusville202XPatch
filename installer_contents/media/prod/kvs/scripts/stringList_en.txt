@@ -1,0 +1,559 @@
+ # KVS string list (english)
+WINDOW_TITLE=Kenny vs Spenny - Versusville 2021.1 Patch
+BTN_ENTER=Enter
+BTN_QUIT=Quit
+LABEL_GAME_TITLE=Kenny vs Spenny
+LOGIN_LOADING_WORLD=Loading the level...
+OUT_OF_LOCALE=You have exited the locale!
+
+# Focus info
+FI_BAT=Baseball Bat
+FI_BLUE_PILL=Blue Pills
+FI_BROWN_PILL=Brown Pills
+FI_CODE=Vault Door Code
+FI_HAMPER=Underwear Hamper
+FI_KEY_STORAGE=Storage Key
+FI_KEY_BASEMENT=Basement Key
+FI_ROTATINGDOOR_UNLOCKED=Door
+FI_ROTATINGDOOR_LOCKED=Locked Door
+FI_STEALTH_BOOTS=Stealth Boots
+FI_TELEPORTER_FLOOR=Attic Door
+FI_TELEPORTER_UP=Go to 2nd Floor
+FI_DOOR_BASEMENT=Basement Door
+FI_DOOR_BASEMENT_LOCKED=Locked Basement Door
+FI_DOOR_STORAGE=Storage Door
+FI_DOOR_STORAGE_LOCKED=Locked Storage Door
+FI_DOOR_VAULT=Locked Vault Door
+FI_CHEM_VIAL=Chemical Vial
+
+PICKED_UP_ITEM=
+
+DEFAULT_USER_NAME=Guest
+
+#Projectile names
+AMMO_UNDERWEAR=Underwear
+
+#In game messages
+GAMEOVER_LOW_SCORE=Your score has dropped below 0. GAME OVER!
+RESIDENCE_VAULT_OPENED=Congratulations! You have opened the Vault!
+RESIDENCE_END_SUCCESS=Now try for a faster time!
+RESIDENCE_END_FAILURE=Now try for a faster time!
+TUTORIAL_OBJECTIVES=Open the Vault Door without alerting Kenny or Spenny.
+POPUP_OK=OK
+POPUP_QUIT_YES_NO=Are you sure you want to quit?
+POPUP_SERVER_DOWN=Server is down. Please try again later.
+PLAYER_DEATH={0} has been fragged by {1}.
+SELF_DEATH={0} was tired of playing.
+SHOWER_TRAP=a Trapped Shower
+WASTE_TRAP=Chemical Waste
+PUDDLE_TRAP=a Chemical Waste Puddle
+MUTANT_TRAP=a Mutant
+DRIP_TRAP=Chemical Waste
+MARKET_WRONG_WAY=Wrong Way!
+MARKET_WAITING_END_RACE=Waiting for all players to finish the race
+MARKET_NO_POINTS=Not enough points to arm the Trap!
+MARKET_START_RACE=GO!
+FULL_AMMO=Your weapon is full of ammo!
+WAITING_FOR_PLAYERS=Waiting for players to join...
+PRESS_SPACE=Press SPACE to start the race!
+
+APPRECIATION_LOSER=Loser
+APPRECIATION_NEWBIE=Newbie
+APPRECIATION_ROOKIE=Rookie
+APPRECIATION_AMATEUR=Amateur
+APPRECIATION_COMPETENT=Competent
+APPRECIATION_SKILLED=Skilled
+APPRECIATION_PRO=Pro
+APPRECIATION_WARRIOR=Warrior
+APPRECIATION_CHAMPION=Champion
+APPRECIATION_MASTER=Master
+
+# setup options
+// Setup Panel
+MENU_SETUP_TITLE=Options
+MENU_SETUP_CREDIT=Credits
+MENU_SETUP_CONTROLS=Game
+MENU_SETUP_GRAPHICS=Video
+MENU_SETUP_PROFILE=Profile
+MENU_SETUP_SOUND=Audio
+MENU_SETUP_PARENTAL_CONTROL=Parental control
+MENU_SETUP_USER_ACCOUNT=User account
+MENU_SETUP_SET_DEFAULT_VALUES=Auto configure
+
+MENU_SETUP_INVERT_MOUSE=Invert Mouse
+MENU_SETUP_MOUSE_SPEED=Mouse Sensitivity
+
+MENU_SETUP_RESOLUTION=Resolution
+MENU_SETUP_FULLSCREEN=Fullscreen
+MENU_SETUP_TEXTURE_DETAIL=Texture Detail
+MENU_SETUP_TEXTURE_QUALITY=Texture Quality
+MENU_SETUP_TEXTURE_FILTER=Texture Filter
+MENU_SETUP_DRIVER=Driver
+
+MENU_SETUP_NICKNAME=nickname
+MENU_SETUP_CROSSHAIR=Crosshair
+MENU_SETUP_LANGUAGE=language
+MENU_SETUP_STARTUP_TIP=tip on startup
+MENU_SETUP_RENDER_VIDEO=render video
+MENU_SETUP_PARTICLE_DENSITY=particle density
+MENU_SETUP_REFLECTION=reflection
+
+MENU_SETUP_ENABLE_SOUND=Enable Sound
+MENU_SETUP_AMBIENT_SOUNDS=Music
+MENU_SETUP_SOUND_FX=Sound Effects
+MENU_SETUP_SPEAKER_CONFIGURATION=speakers
+
+MENU_SETUP_FILTER_LANGUAGE=filter language
+MENU_SETUP_ENABLE_CHAT=enable chat
+
+MENU_SETUP_INVERT_MOUSE_RIGHT_HANDED=Right-handed
+MENU_SETUP_INVERT_MOUSE_LEFT_HANDED=Left-handed
+MENU_SETUP_INVERT_MOUSE_BUTTONS=Mouse Hand
+MENU_SETUP_PANEL_YES=Yes
+MENU_SETUP_PANEL_NO=No
+MENU_SETUP_PANEL_TEXTURE_FILTERING_NEAREST=Nearest
+MENU_SETUP_PANEL_TEXTURE_FILTERING_LINEAR=Linear
+MENU_SETUP_PANEL_TEXTURE_DETAIL_LOW=Low
+MENU_SETUP_PANEL_TEXTURE_DETAIL_MEDIUM=Medium
+MENU_SETUP_PANEL_TEXTURE_DETAIL_HIGH=High
+MENU_SETUP_PANEL_DRIVER_OPENGL=OpenGl
+MENU_SETUP_PANEL_DRIVER_DX7=DirectX
+MENU_SETUP_PANEL_DRIVER_DX8=DirectX 8
+MENU_SETUP_PANEL_16_BITS=16 bits
+MENU_SETUP_PANEL_32_BITS=32 bits
+MENU_SETUP_PANEL_FRENCH=French
+MENU_SETUP_PANEL_ENGLISH=English
+MENU_SETUP_PANEL_CHANGE_YOUR_PASSWORD=change your password
+MENU_SETUP_PANEL_SET_YOUR_PASSWORD=set a password
+MENU_SETUP_PANEL_ENTER_YOUR_PASSWORD=enter your password
+MENU_SETUP_PANEL_ENTER_YOUR_NEW_PASSWORD=enter your new password
+MENU_SETUP_PANEL_ENTER_YOUR_OLD_PASSWORD=enter your old password
+MENU_SETUP_PANEL_CONFIRM_YOUR_NEW_PASSWORD=confirm your new password
+
+MENU_SETUP_PASSWORD_VERIFIED=password verified
+MENU_SETUP_PASSWORD_INCORRECT=incorrect password. please try again
+MENU_SETUP_NO_PASSWORD_CREATED=no password created
+MENU_SETUP_PASSWORD_CREATED=password created
+MENU_SETUP_ENTER_YOUR_PASSWORD=enter your new password
+MENU_SETUP_PASSWORD_DISABLED=password has been disabled
+MENU_SETUP_PASSWORD_CREATED=password created
+MENU_SETUP_PASSWORD_DOES_NOT_MATCH=password does not match. please try again
+
+MENU_SETUP_CONTROLS_INFO=change the mouse options
+MENU_SETUP_GRAPHICS_INFO=change the graphics options
+MENU_SETUP_DISPLAY_INFO=change the display options
+MENU_SETUP_SOUND_INFO=change the sound options
+MENU_SETUP_PARENTAL_INFO=change the parental options
+MENU_SETUP_DEFAULT_INFO=reset your options to their optimal values
+
+MENU_SETUP_INVERT_MOUSE_INFO=change how your mouse controls your view
+MENU_SETUP_MOUSE_SPEED_INFO=slide the button to the right to speed-up your in-world mouse
+
+MENU_SETUP_RESOLUTION_INFO=change the window's resolution
+MENU_SETUP_FULLSCREEN_INFO=toggle full-screen mode
+MENU_SETUP_TEXTURE_DETAIL_INFO=change the texture's internal scaling
+MENU_SETUP_TEXTURE_QUALITY_INFO=change the texture's color depth
+MENU_SETUP_TEXTURE_FILTER_INFO=change how textures are filtered
+MENU_SETUP_DRIVER_INFO=chose your graphic driver
+
+MENU_SETUP_NICKNAME_INFO=show or hide your nickname to others
+MENU_SETUP_CROSSHAIR_INFO=change the look of your crosshair
+MENU_SETUP_LANGUAGE_INFO=change the display language
+MENU_SETUP_STARTUP_TIP_INFO=toggle the startup tip
+MENU_SETUP_RENDER_VIDEO_INFO=toggle the video rendering
+MENU_SETUP_PARTICLE_DENSITY_INFO=slide the button to the right to increase the particle density
+MENU_SETUP_REFLECTION_INFO=toggle the reflection effects
+
+MENU_SETUP_ENABLE_SOUND_INFO=toggle the sound of the application
+MENU_SETUP_AMBIENT_SOUND_INFO=slide the button to the right to increase the volume of the ambient sound
+MENU_SETUP_SOUND_FX_INFO=slide the button to the right to increase the volume of the sound effects
+MENU_SETUP_SPEAKER_CONFIGURATION_INFO=change the speaker configuration
+
+MENU_SETUP_ENABLE_FILTER_INFO=enable or disable the chat filtering
+MENU_SETUP_ENABLE_CHAT_INFO=enable or disable chat
+MENU_SETUP_ENABLE_SET_PASSWORD_INFO=set a password, enter an empty password to unset
+
+MENU_SETUP_USER_NAME=user name
+MENU_SETUP_USER_PASSWORD=user password
+
+MENU_SETUP_OK_INFO=go back and confirm the changes
+MENU_SETUP_CANCEL_INFO=go back and cancel the changes
+MENU_SETUP_PANEL_OVERWRITE_DEFAULT=Are you sure you want to reset your settings?
+MENU_SETUP_PANEL_NEED_RESTART=You must restart your game to make your modifications effective.
+
+MENU_SETUP_WELCOME_ENTER_YOUR_NAME=You must provide a user name and a password to connect to the server.
+
+// information for the user about the options he can't change
+CANT_CHANGE_REFLECTION=You can't enable reflection since your system does not have the capacity to render it.
+CANT_CHANGE_VIDEO=You can't enable video since your system does not have the capacity to render it.
+CANT_CHANGE_GRAPHIC_API=You can't change your graphics driver since only one graphics API is supported by your system.
+CANT_CHANGE_FULLSCREEN=You can't disable fullscreen since your graphics card doesn't support windowed applications.
+
+MENU_OPTIONS_NAME=Name:
+
+MENU_CAPTURED_TEXT=CAUGHT!
+MENU_CAPTURED_MISC=Click to go back to main menu
+MENU_CAPTURED_CONTINUE=Click to continue
+
+MENU_COMMON_URBANIST=Urbanist(s):
+MENU_COMMON_PLAN_NUMBER=PL # kvs 2021.1
+
+MENU_COMMON_LOCATION_TOWN=Versusville
+MENU_COMMON_LOCATION_VCR=KvS TV Repair Shop
+MENU_COMMON_LOCATION_OPTIONS=Option Alley
+MENU_COMMON_LOCATION_HALL=Hall of Champions
+MENU_COMMON_LOCATION_MEMORIAL=War Memorial
+MENU_COMMON_LOCATION_QUIT=Quit
+MENU_COMMON_LOCATION_RESIDENCE=Residence Evil
+MENU_COMMON_LOCATION_WASTEBALL=Wasteball
+MENU_COMMON_LOCATION_CEMETERY=Grave Rave
+MENU_COMMON_LOCATION_MARKET=Kart Dart
+MENU_COMMON_LOCATION_ALL_MULTIPLAYER=In Progress Games
+
+MENU_LEGEND_TITLE=Legend:
+MENU_LEGEND_URBANISTS=Urbanist (s) :
+MENU_LEGEND_KENNY=Kenny Hotz
+MENU_LEGEND_SPENNY=Spencer Rice
+MENU_LEGEND_OK=OK
+MENU_LEGEND_CANCEL=Back
+MENU_LEGEND_RESET=Reset
+MENU_LEGEND_MAIN=Main Menu
+
+MENU_SCORE_INSULT_0={0}, Truthfully, you really suck!
+MENU_SCORE_INSULT_1={0}, You reek, loser!
+MENU_SCORE_INSULT_2={0}, You're a goof!
+MENU_SCORE_INSULT_3={0}, Pathetic!
+MENU_SCORE_INSULT_4={0}, You reek!
+MENU_SCORE_INSULT_5={0}, Give up!
+
+MENU_SCORE_REWARD_0={0}, You have pleasured us
+MENU_SCORE_REWARD_1={0}, Delicious
+MENU_SCORE_REWARD_2={0}, Does it taste good?
+MENU_SCORE_REWARD_3={0}, Fargen, eh
+MENU_SCORE_REWARD_4={0}, Delicious
+
+#Menu ingame
+MENU_INGAME_RESUME=RESUME
+MENU_INGAME_QUIT=QUIT
+
+
+#Menu Start Game
+MENU_GAMESTART_SINGLEPLAYER=SINGLE PLAYER
+MENU_GAMESTART_MULTIPLAYER=MULTIPLAYER
+MENU_GAMESTART_INSTRUCTIONS=INSTRUCTIONS
+
+#Memorial Panel
+MENU_MEMORIAL_CONTAMINATOR=Contaminator - Sabotaged the most Decontamination Showers
+MENU_MEMORIAL_HITMAN=Hitman - Highest accuracy rating (hits/shots)
+MENU_MEMORIAL_CHATTERBOX=Chatterbox - Taunted the most
+MENU_MEMORIAL_ASSISTANT=The Assistant - Got at least one assist
+MENU_MEMORIAL_PUMPKIN_SMASHER=Pumpkin Smasher - Most headshots with the Tactical Chem Rifle
+MENU_MEMORIAL_PARTY_POOPER=Party Pooper - Hit two or more players simultaneously with the Chem Grenade Launcher
+MENU_MEMORIAL_NEAT_FREAK=Neat Freak - Showered in Decontamination Showers the most
+MENU_MEMORIAL_SNEAKY_SNIPER=Sneaky Sniper - More frags with the Tactical Chem Rifle than with any other weapon
+MENU_MEMORIAL_LEMMING=Lemming - Fragged themselves with their own weapons the most
+MENU_MEMORIAL_BED_WETTER=Bedwetter - Fragged by stepping in Chemical Waste Puddles the most
+MENU_MEMORIAL_CEREBELLUM=Panning for Cerebellum - Most headshots with a Zombie Skull
+MENU_MEMORIAL_ECTOPLASM_EXPERT=Ectoplasm Expert - Paralyzed the most players with Ectoplasm
+MENU_MEMORIAL_NOGGIN_STUFFER=Noggin Stuffer - Most headshots with Zombie Guts
+MENU_MEMORIAL_HOWITZER_ARM=Howitzer Arm - Throw at full power
+MENU_MEMORIAL_CRYPT_COWARD=Zombie Lover - Damaged by Zombies the most
+MENU_MEMORIAL_LIMP_WRIST=Limp Wrist - Throw at low power
+MENU_MEMORIAL_SHOPPING_SPREE=Shopping Spree - Most armed Traps triggered by other players
+MENU_MEMORIAL_EXPRESS_CHECKOUT=Express Checkout - Fastest player three laps in a row
+MENU_MEMORIAL_COMEBACK_KING=Trappy von Trap - Armed twice as many Traps as the next highest
+MENU_MEMORIAL_HONEST_ROLLER=Honest Roller - Finished first without arming any Traps
+MENU_MEMORIAL_GRANNY=Granny - Slowest player three laps in a row
+MENU_MEMORIAL_COUPON_CUTTER=Coupon Cutter - Least amount of points spent on Traps
+MENU_MEMORIAL_SUNDAY_DRIVER=Sunday Driver - Slowest player two laps in a row
+MENU_MEMORIAL_ELECTRICIAN=Electrician - Fifteen or more Traps disarmed
+MENU_MEMORIAL_DENIS_MENACE=Dennis the Menace - Fifteen or more headshots with the Slingshot
+MENU_MEMORIAL_SLIPPERY_EEL=Slippery Eel - Never caught by Kenny or Spenny
+MENU_MEMORIAL_SPEEDY_SHADOW=Master Medal - Completed Residence Evil with a score of 6000 or more
+MENU_MEMORIAL_HAMPER_HAMPERED=Hamper Hampered - Reloaded Underwear at a Hamper fifteen or more times
+MENU_MEMORIAL_VANDAL=Vandal - Destroyed every Surveillance Camera in the house with the Baseball Bat
+MENU_MEMORIAL_KEY=Key to Versusville
+MENU_MEMORIAL_UNDERPANTS=Bronzed Pair of Kenny's Underwear
+MENU_MEMORIAL_TITLE=War Memorial
+MENU_MEMORIAL_MASTER=MASTER
+MENU_MEMORIAL_SLAVE=SLAVE
+MENU_MEMORIAL_CEMETERY=GRAVE RAVE 
+MENU_MEMORIAL_WASTEBALL=WASTEBALL
+MENU_MEMORIAL_RESIDENCE=RESIDENCE EVIL
+MENU_MEMORIAL_SUPERMARKET=KART DART
+
+#Multiplayer
+MENU_MULTIPLAYER_TITLE=MULTIPLAYER
+MENU_MULTIPLAYER_JOIN=Join
+MENU_MULTIPLAYER_HOST=Host
+MENU_MULTIPLAYER_PUBLIC=Public Game
+MENU_MULTIPLAYER_PRIVATE=Private Game
+MENU_MULTIPLAYER_SERVER_NAME=Game Name:
+MENU_MULTIPLAYER_PASSWORD=Password:
+MENU_MULTIPLAYER_CONDITIONS=Select Win Conditions:
+MENU_MULTIPLAYER_TIME=Time Limit (in minutes)
+MENU_MULTIPLAYER_FRAGS=Number of Frags
+MENU_MULTIPLAYER_SERVER=Server Name
+MENU_MULTIPLAYER_PING=Ping
+MENU_MULTIPLAYER_PLAYERS=Players
+MENU_MULTIPLAYER_REFRESH=Refresh
+MENU_MULTIPLAYER_NA=n/a
+
+#SinglePlayer
+MENU_SINGLEPLAYER_TITLE=SINGLE PLAYER
+MENU_SINGLEPLAYER_CONDITIONS=Select Win Conditions:
+MENU_SINGLEPLAYER_LAPS_CONDITION=Select Number of Laps:
+MENU_SINGLEPLAYER_SELECT_TRACK=Select Track:
+MENU_SINGLEPLAYER_TIME=Time Limit (in minutes)
+MENU_SINGLEPLAYER_FRAGS=Number of Frags
+MENU_SINGLEPLAYER_OPPONENTS=Select Number of Opponents:
+MENU_SINGLEPLAYER_TRACK_01=Supermarket Speedway
+MENU_SINGLEPLAYER_TRACK_02=Market Madness
+MENU_SINGLEPLAYER_TRACK_03=Wild in the Aisles
+
+# Used in the score menu to show the positions.
+MENU_SCORES_POSITION_1=1st
+MENU_SCORES_POSITION_2=2nd
+MENU_SCORES_POSITION_3=3rd
+MENU_SCORES_POSITION_4=4th
+MENU_SCORES_POSITION_5=5th
+MENU_SCORES_POSITION_6=6th
+MENU_SCORES_POSITION_7=7th
+MENU_SCORES_POSITION_8=8th
+
+#Wasteball instruction
+MENU_INSTRUCTIONS_TITLE=INSTRUCTIONS
+MENU_INSTRUCTIONS_WASTEBALL=Welcome to the Wasteball Arena! This is the most violent and desirable competition in Versusville, and YOU have been chosen to join the fight!\n\nIn the arena, fire your chemical paintball weapons to increase the other players' contamination levels, and once they reach critical, they will vaporize and you'll bag the points! But be warned - they're out to get you too!\n\nReduce your contamination levels by entering the Decontamination Showers around the arena, but watch out - these can be sabotaged with the Waste Vial Launcher and vaporize you instead!\n\nLook out for Chemical Waste Puddles on the ground and the Mutants around the battlefield - they'll attack on sight!\n\nAre you a survivor or a sucker?
+MENU_INSTRUCTIONS_CEMETERY=The Losers' Cemetery...an eerie and sinister place, and where you'll end up if you don't do the Grave Rave!\n\nThe dead walk tonight, but only for a few short feet before their rotten carcasses explode everywhere! Using your Guts Gun, scoop up what remains and hurl it at your opponents.\n\nUse the Launch Meter to see how far the flesh will fly! Sticky Ectoplasm left by the resident ghosts can also be launched to paralyze your foes.\n\nZombies, brains, guts, guns...just a normal night in Versusville!
+MENU_INSTRUCTIONS_RESIDENCE_PRIMARY=So, you wanna live in Versusville, don't cha, rookie? You think you've got what it takes? Your rite of passage begins here, in Versusville's resident house of horrors!\n\nYour mission is simple: Find a way to unlock the elusive Vault Door located within. But keep your eyes peeled - Kenny and Spenny don't take well to newbies, especially ones like you!\n\nFortunately, Kenny's lack of cleanliness has afforded you the upper hand in disarming the Traps that line the halls. Launch Blue and Brown Pills with your Slingshot to send Kenny and Spenny into a deep sleep or a colon cleansing, and snag whatever household items you can find to disarm and destroy their defenses.\n\nGood luck...you're gonna need it.
+MENU_INSTRUCTIONS_RESIDENCE_SECONDARY=So, you wanna live in Versusville, don't cha, rookie? You think you've got what it takes? Your rite of passage begins here, in Versusville's resident house of horrors!\n\nYour mission is simple: Find a way to unlock the elusive Vault Door located within. But keep your eyes peeled - Kenny and Spenny don't take well to newbies, especially ones like you!\n\nFortunately, Kenny's lack of cleanliness has afforded you the upper hand in disarming the Traps that line the halls. Launch Blue and Brown Pills with your Slingshot to send Kenny and Spenny into a deep sleep or a colon cleansing, and snag whatever household items you can find to disarm and destroy their defenses.\n\nGood luck...you're gonna need it.
+MENU_INSTRUCTIONS_MARKET=Welcome to the Versus Market, where insane racers go wild in the aisles! Careen your Kart through the market and be the first to cross the finish line, through fair means or foul.\n\nMaintain your lead to gain more points, and use them to arm Traps around the track to sabotage your opponents. Stay sharp - those sales may be tempting, but there's no mercy in such market mayhem!\n\nIt's always good to be first in line, or soon enough, you'll be working the graveyard shift...
+
+MENU_INSTRUCTIONS_A_RH=A
+MENU_INSTRUCTIONS_W_RH=W
+MENU_INSTRUCTIONS_S_RH=S
+MENU_INSTRUCTIONS_D_RH=D
+MENU_INSTRUCTIONS_A_LH=Down Arrow
+MENU_INSTRUCTIONS_W_LH=Up Arrow
+MENU_INSTRUCTIONS_S_LH=Left Arrow
+MENU_INSTRUCTIONS_D_LH=Right Arrow
+MENU_INSTRUCTIONS_A_INSTRUCTION=-             Move Back
+MENU_INSTRUCTIONS_W_INSTRUCTION=-             Move Forward
+MENU_INSTRUCTIONS_S_INSTRUCTION=-             Strafe Left
+MENU_INSTRUCTIONS_D_INSTRUCTION=-             Strafe Right
+
+MENU_INSTRUCTIONS_ACCELERATE_INSTRUCTION=-             Accelerate
+MENU_INSTRUCTIONS_BRAKE_INSTRUCTION=-             Brake
+MENU_INSTRUCTIONS_LEAN_LEFT_INSTRUCTION=-             Lean Left
+MENU_INSTRUCTIONS_LEAN_RIGHT_INSTRUCTION=-             Lean Right
+
+MENU_INSTRUCTIONS_SPACEBAR_RH=Space Bar
+MENU_INSTRUCTIONS_LEFTCTRL_RH=Left Ctrl
+MENU_INSTRUCTIONS_R_RH=R
+MENU_INSTRUCTIONS_SPACEBAR_LH=NumPad 0
+MENU_INSTRUCTIONS_LEFTCTRL_LH=Right Ctrl
+MENU_INSTRUCTIONS_R_LH=NumPad Enter
+MENU_INSTRUCTIONS_SPACEBAR_INSTRUCTION=-             Jump
+MENU_INSTRUCTIONS_LEFTCTRL_INSTRUCTION=-             Crouch
+MENU_INSTRUCTIONS_R_INSTRUCTION=-             Reload
+
+MENU_INSTRUCTIONS_B_RH=B
+MENU_INSTRUCTIONS_B_LH=<
+MENU_INSTRUCTIONS_V_RH=V
+MENU_INSTRUCTIONS_V_LH=>
+
+MENU_INSTRUCTIONS_B_INSTRUCTION=-             Cycle Item Right
+MENU_INSTRUCTIONS_V_INSTRUCTION=-             Cycle Item Left
+
+MENU_INSTRUCTIONS_1=1
+MENU_INSTRUCTIONS_2=2
+MENU_INSTRUCTIONS_3=3
+MENU_INSTRUCTIONS_4=4
+MENU_INSTRUCTIONS_5=5
+MENU_INSTRUCTIONS_1@5=1 to 5
+MENU_INSTRUCTIONS_T=T
+MENU_INSTRUCTIONS_ENTER=Enter
+MENU_INSTRUCTIONS_RIGHTCTRL_RH=Right Ctrl
+MENU_INSTRUCTIONS_RIGHTCTRL_LH=Left Ctrl
+MENU_INSTRUCTIONS_1_INSTRUCTION=-             Select First Weapon
+MENU_INSTRUCTIONS_2_INSTRUCTION=-             Select Second Weapon
+MENU_INSTRUCTIONS_3_INSTRUCTION=-             Select Third Weapon
+MENU_INSTRUCTIONS_4_INSTRUCTION=-             Select Fourth Weapon
+MENU_INSTRUCTIONS_5_INSTRUCTION=-             Select Fifth Weapon
+MENU_INSTRUCTIONS_1@5_INSTRUCTION=-             Select First to Fifth Weapon
+MENU_INSTRUCTIONS_T_INSTRUCTION=-             Trash Talk
+MENU_INSTRUCTIONS_ENTER_INSTRUCTION=-             Confirm Message
+MENU_INSTRUCTIONS_RIGHTCTRL_INSTRUCTION=-             Taunt
+
+MENU_INSTRUCTIONS_Z=Z
+MENU_INSTRUCTIONS_Z_INSTRUCTION=-             Enable/Disable Sniper Mode
+
+MENU_INSTRUCTIONS_TAB=Tab
+MENU_INSTRUCTIONS_TAB_INSTRUCTION=-             Show Scores
+
+MENU_INSTRUCTIONS_ESC=Esc
+MENU_INSTRUCTIONS_ESC_INSTRUCTION=-             Pause Game/In-Game Menu
+
+MENU_INSTRUCTIONS_LEFTMOUSE=Left Mouse Button
+MENU_INSTRUCTIONS_RIGHTMOUSE=Right Mouse Button
+MENU_INSTRUCTIONS_MOUSEWHEEL=Mouse Wheel
+MENU_INSTRUCTIONS_MOUSEMOVE=Mouse Movement
+MENU_INSTRUCTIONS_LEFTMOUSE_INSTRUCTION_RH=-             Fire
+MENU_INSTRUCTIONS_RIGHTMOUSE_INSTRUCTION_RH=-             Enable/Disable Sniper Mode
+MENU_INSTRUCTIONS_LEFTMOUSE_INSTRUCTION_LH=-             Enable/Disable Sniper Mode
+MENU_INSTRUCTIONS_RIGHTMOUSE_INSTRUCTION_LH=-             Fire
+MENU_INSTRUCTIONS_MOUSEWHEEL_INSTRUCTION=-             Select Next/Previous Weapon
+MENU_INSTRUCTIONS_MOUSEMOVE_INSTRUCTION=-             Look Around
+
+
+
+#Trailer
+POPUP_TRAILER_MULTIPLAYER=Wasteball is also available as a multi player event.  Frag and humiliate your friends in the Wasteball Arena before they do the same to you!  Show no mercy and you will please the Gods of Competition. But if you're a sap, it's off to the Losers' Cemetery!\n\nCheck http://www.cbc.ca/kennyvsspenny/game.html for the full version
+POPUP_TRAILER_MESSAGE=This building is available only in the final release of the game!
+POPUP_TRAILER_HALL=The Hall of Champions - This is where the winners are displayed for all the world to see... immortalised... until the next best player comes along! In the full version you can log your high-scores here and see how you fare against all the other residents of Versusville the world over.\n\nCheck http://www.cbc.ca/kennyvsspenny/game.html for the full version!
+POPUP_TRAILER_REPAIR=The KvS TV Repair shop is the place to go for Kenny Vs Spenny updates. This links you to the official website where you can catch up on everything that's happening to the Gods of Competition in their "real world" guises.\n\nCheck http://www.cbc.ca/kennyvsspenny/game.html for the full version!
+POPUP_TRAILER_CEMETERY=Blood, guts, guns, ghosts and zombies... I mean really, what more could you want?  The Losers Cemetery, where Versusville flunkies are buried, is home to the eeriest competition Versusville has to offer... the Grave Rave.  Here you use your Guts Gun (patented by Versusville scientists) to launch zombified body parts at your opponents... sound like sick and twisted fun?  It is!\n\nCheck http://www.cbc.ca/kennyvsspenny/game.html for the full version!
+POPUP_TRAILER_KARTDART=Shopping carts are not the first choice for a racing game, but when you live in Versusville EVERYTHING is a competition.  No one uses this market for food anymore... so the Gods of Competition transformed it into a race track!  Take one of 8 carts and go wild in the aisles.  Trap and ensnare your weak and puny opponents and make them eat your dust... \n\nCheck http://www.cbc.ca/kennyvsspenny/game.html for the full version!
+POPUP_TRAILER_RESIDENCE=The house of Kenny and Spenny is the proving ground of any wannabe Versusville competitor.  Show us your stealthy ninja skills in this game of tactics and cunning.  Can you outwit the gods of competition with your trusty baseball bat, your catapult and er... their underwear?  All will be explained in the full version!\n\nCheck http://www.cbc.ca/kennyvsspenny/game.html for the full version!
+
+POPUP_AVAILABLE_RESIDENCE=Residence Evil is not available. Please go to the cbc web site to download it.
+POPUP_AVAILABLE_CEMETERY=Cemetery is not available. Please go to the cbc web site to download it.
+POPUP_AVAILABLE_WASTEBALL=Wasteball is not available. Please go to the cbc web site to download it.
+POPUP_AVAILABLE_MARKET=KartDart is not available. Please go to the cbc web site to download it.
+
+POPUP_FINISHED_RESIDENCE=Hey!  Newbie!  Where do you think you're going?\n\nGo to Kenny and Spenny's house first for the Versusville initiation test - Residence Evil!
+
+POPUP_YES=Yes
+POPUP_NO=No
+POPUP_LOADING=Please wait
+POPUP_PASSWORD_MESSAGE=Password: 
+POPUP_PASSWORD_ERROR_MESSAGE=Access denied
+ZOOM_ONLY_IF_FIRST_PERSON=Zooming capability is enabled only when in the first person view
+HOW_TO_TOGGLE_VIEW_MODE=Use the 'F2' key to toggle between the 1st & 3rd person view modes
+NAME_CONTAINS_WHITE_SPACE=Name contains white space
+NAME_ALREADY_EXISTS=This username already exists
+CONNECTION_CANNOT_BE_ESTABLISHED=Connection to server cannot be established
+
+#NETWORK ERRORS
+LOGIN_NO_RESPONSE=The player matching server is not responding. Please try again later.
+LOGIN_UNKNOWN_HOST=Unknown host
+LOGIN_REFUSED=Login refused. Please try again.
+NETWORK_CONNECTION_SHUTDOWN_BY_SERVER=The connection to the computer hosting the game has been lost. Please try again later.
+
+# Cemetery...
+CEMETERY_ZOMBIE_NAME=a Zombie
+
+DROPPED_ITEM=
+KVS_WEB_SITE=https://www.versusville.com/
+KVS_WEB_SITE_SCORE=https://www.versusville.com/score_new.html
+
+LBL_CURRENT_TIME_INFO=Current Lap
+LBL_BEST_TIME_INFO=Best Lap
+LBL_PREVIOUS_TIME_INFO=Previous Lap
+
+MARKET_TRAP_ARMED={0} armed ({1} points)
+MARKET_TRAP_TRIGGERED={0} triggered by {1} ({2} points)
+MARKET_TRAP_SELF_TRIGGERED=You triggered {0}''s {1}
+
+MARKET_TRAP_NAME_STEAK_SALE=Steak Sale
+MARKET_TRAP_NAME_OIL_SLICK=Oil Slick
+MARKET_TRAP_NAME_SABOTAGE_SIGN=Sabotage Sign
+MARKET_TRAP_NAME_CURSE=Curse
+
+#CHANGES
+#WINDOW_TITLE - Updated to reflect the 202X patch's version number
+#GAMEOVER_LOW_SCORE - Double space changed to single space, exclammation point added to "GAME OVER."
+#RESIDENCE_VAULT_OPENED - Double space changed to single space, "vault" capitalized for continuity. 
+#FI_DOOR_VAULT - "Locked" added as blanket fix for vault code requirement. 
+#SHOWER_TRAP - Capitalized.
+#WASTE_TRAP - Capitalized.
+#PUDDLE_TRAP - Capitalized.
+#MUTANT_TRAP - Capitalized.
+#DRIP_TRAP - Capitalized.
+#POPUP_OK - "k" capitalized.
+#MENU_CAPTURED_TEXT - "CAPTURED!" to "CAUGHT!"
+#RESIDENCE_END_FAILURE - "You need a score of at least 3300 to unlock the other games though..." changed to "Now try for a faster time!"
+#RESIDENCE_END_SUCCESS - "All the other games are now unlocked!" changed to "Now try for a faster time!"
+#MENU_SETUP_INVERT_MOUSE_RIGHT_HANDED - Hyphen for correct grammar.
+#MENU_SETUP_INVERT_MOUSE_LEFT_HANDED - Hyphen for correct grammar.
+#MENU_SETUP_INVERT_MOUSE_BUTTONS - "hand" capitalized.
+#MENU_COMMON_PLAN_NUMBER - Updated to reflect the 202X patch's version number
+#MENU_COMMON_LOCATION_CEMETERY - Space added, it's not one word.
+#MENU_SETUP_INVERT_MOUSE - "mouse" capitalized.
+#MENU_SETUP_MOUSE_SPEED - "speed" changed to "Sensitivity"
+#MENU_SETUP_FULLSCREEN - Removed hyphen.
+#MENU_LEGEND_OK - "k" capitalized.
+#MENU_SETUP_TEXTURE_DETAIL - "detail" capitalized.
+#MENU_SETUP_TEXTURE_QUALITY - "quality" capitalized.
+#MENU_SETUP_TEXTURE_FILTER - "filter" capitalized.
+#MENU_SETUP_ENABLE_SOUND - "sound" capitalized.
+#MENU_SETUP_AMBIENT_SOUNDS - Changed to "Music" for clarity.
+#MENU_SETUP_PANEL_NEED_RESTART - "application" changed to "game" for clarity.
+#MENU_SETUP_SOUND_FX - "effects" capitalized.
+#MENU_SETUP_PANEL_YES - "yes" capitalized.
+#MENU_SETUP_PANEL_NO - "no" capitalized.
+#MENU_SETUP_PANEL_OVERWRITE_DEFAULT - "override your settings with the default one ?" changed to "reset your settings?" for simplicity.
+#MENU_SETUP_PANEL_TEXTURE_FILTERING_NEAREST - "nearest" capitalized.
+#MENU_SETUP_PANEL_TEXTURE_FILTERING_LINEAR "linear" capitalized.
+#MENU_SETUP_PANEL_TEXTURE_DETAIL_LOW - "low" capitalized.
+#MENU_SETUP_PANEL_TEXTURE_DETAIL_MEDIUM - "medium" capitalized.
+#MENU_SETUP_PANEL_TEXTURE_DETAIL_HIGH - "high" capitalized.
+#CANT_CHANGE_GRAPHIC_API - "graphic" made plural in both instances.
+#CANT_CHANGE_FULLSCREEN - "graphic" made plural, "does not" changed to "doesn't"
+#MENU_LEGEND_TITLE - Space removed between "Legend" and ":"
+#MENU_SCORE_INSULT_1 - Added "!"
+#MENU_SCORE_INSULT_3 - Added "!"
+#MENU_SCORE_INSULT_4 - Added "!"
+#MENU_SCORE_INSULT_2 - Double apostrophe removed from "You''re," added "!"
+#MENU_MEMORIAL_CONTAMINATOR - Removed "in a round" for continuity, "decontamination showers" capitalized.
+#MENU_MEMORIAL_HITMAN - "shots/hits" changed to "hits/shots"
+#MENU_MEMORIAL_CHATTERBOX - Removed "Whoever" and "throughout the round"
+#MENU_MEMORIAL_ASSISTANT - "Player who steals the most frags" changed to "Got at least one assist"
+#MENU_MEMORIAL_PUMPKIN_SMASHER - "rifle" capitalized.
+#MENU_MEMORIAL_PARTY_POOPER - "Hitting" changed to "Hit," "people" changed to "players" for continuity, "a grenade" changed to "Chem Grenade Launcher" for clarity.
+#MENU_MEMORIAL_NEAT_FREAK - "Decon" changed to "decontamination," "the" removed, "more than any other player" removed, "the most" added, "decontamination shower" capitalized. 
+#MENU_MEMORIAL_SNEAKY_SNIPER - "sniper rifle" changed to "Tactical Chem Rifle."
+#MENU_MEMORIAL_LEMMING - Removed "in a round" for continuity
+#MENU_MEMORIAL_BED_WETTER - "fragged" capitalized, "in a round" removed, "Bed Wetter" changed to "Bedwetter," "chemical waste puddle" capitalized.
+#MENU_MEMORIAL_ECTOPLASM_EXPERT - "Paralysed" corrected to "Paralyzed," "ectoplasm" capitalized.
+#MENU_MEMORIAL_CEREBELLUM - "skull" changed to "Zombie Skull"
+#MENU_MEMORIAL_NOGGIN_STUFFER - "guts" capitalized, "in a round" removed, "with" added to match "Pumpkin Smasher" wording. 
+#MENU_MEMORIAL_HOWITZER_ARM - "Most Powerful throw" changed to "Throw at full power"
+#MENU_MEMORIAL_CRYPT_COWARD - "zombies" capitalized.
+#MENU_MEMORIAL_LIMP_WRIST - "Least powerful throws" changed to "Throw at low power"
+#MENU_MEMORIAL_EXPRESS_CHECKOUT - "3" changed to "three" to match other achievements, "lap" changed to "player"
+#MENU_MEMORIAL_HONEST_ROLLER - "No Traps used against the other players, and finished first" reworded to "Finished first without arming any Traps"
+#MENU_MEMORIAL_SHOPPING_SPREE - "traps" capitalized, "activated" changed to "armed"
+#MENU_MEMORIAL_COMEBACK_KING - Removed "Player who set," added "Armed," capitalized "traps"
+#MENU_MEMORIAL_COUPON_CUTTER - "traps" capitalized.
+#MENU_MEMORIAL_GRANNY - "racer" changed to "player" 
+#MENU_MEMORIAL_CEMETERY - Space added between "GRAVERAVE" 
+#MENU_MEMORIAL_SUNDAY_DRIVER - "Last" changed to "Slowest player" to match Granny.
+#MENU_MEMORIAL_ELECTRICIAN - "15" changed to "fifteen," "traps" capitalized, "deactivated" changed to "disarmed"
+#MENU_MEMORIAL_DENIS_MENACE - Extra "n" added to "Denis," reworded from "Sending Kenny/Spenny to the Bathroom/Bedroom 15 or more times" to accomodate "15" as "fifteen"
+#MENU_MEMORIAL_HAMPER_HAMPERED - "15" to "fifteen," "hamper" and "underwear" capitalized, "the" changed to "a"
+#MENU_MEMORIAL_SPEEDY_SHADOW - "Completing Residence Evil at Master Level" changed to "Completed Residence Evil with a score of 6000 or more"
+#MENU_MEMORIAL_VANDAL=Vandal - "single" removed, "camera" capitalized, "Surveillance" added, "bat" changed to "Baseball Bat"
+#MENU_MULTIPLAYER_FRAGS - "#" written out to "Number"
+#MENU_MEMORIAL_UNDERPANTS - "pair" capitalized, "underpants" changed to "Underwear."
+#MENU_MULTIPLAYER_SERVER - "name" capitalized.
+#MENU_SINGLEPLAYER_LAPS_CONDITION - "number" and "laps" capitalized
+#MENU_SINGLEPLAYER_SELECT_TRACK - "track" capitalized
+#MENU_SINGLEPLAYER_FRAGS - "#" written out to "Number"
+#MENU_SINGLEPLAYER_OPPONENTS - "number" and "opponents" capitalized.
+#MENU_INSTRUCTIONS_WASTEBALL - Double spaces removed, double hyphens removed, double exclamation points removed, "." changed to "!" after "fight," comma added after "Versusville," “and once” added for sentence clarity, “it reaches” changed to “they reach,” “the” changed to “your chemical,” “you” changed to “you'll,” “decontamination showers” capitalized, “level” changed to “arena,” “be warned” changed to “watch out,” “and be set to cause even more damage” reworded for clarity, “chemical puddles” changed to “Chemical Waste Puddles,” “mutated losers” changed to “Mutants,” “level” changed to “battlefield,” “Good luck... you're gonna need it.” text removed. “Watch” changed to “Look”
+#MENU_INSTRUCTIONS_CEMETERY - Double spaces removed, added comma after “place,” removed “Kenny and Spenny patented,” ,“launch” changed to “hurl,” added “to paralyze your foes, “guts will go” changed to “flesh will fly,” “ectoplasm” capitalized, “launch meter” capitalized, “deadly and” removed because it does no damage, “You can also use” removed, “to” changed to “can also be launched to”
+#MENU_INSTRUCTIONS_RESIDENCE_SECONDARY - Replaced with MENU_INSTRUCTIONS_RESIDENCE_PRIMARY due to change in score requirement.
+#MENU_INSTRUCTIONS_RESIDENCE_PRIMARY - Double spaces removed, comma after “So,” “come” removed, “do ya” changed to “don't cha,” “rookie” moved to first question, rewrote entire menu text to match style of others.
+#MENU_INSTRUCTIONS_MARKET - Double spaces removed, comma after “Market” added, “Take” changed to “Hurtle,” “ville” removed to match menu graphic, “and race around” replaced with “through the,” “avoiding the obstacles and traps!” removed, removed Trap explaining text and final line. 
+#MENU_INSTRUCTIONS_Z_INSTRUCTION - Replaced original text to match other prompts.
+#MENU_INSTRUCTIONS_ESC_INSTRUCTION - Added hyphen, removed spaces between "/"
+#MENU_INSTRUCTIONS_MOUSEWHEEL_INSTRUCTION - Removed spaces between "/"
+#POPUP_PASSWORD_MESSAGE - Space removed.
+#KVS_WEB_SITE - Now links to the new versusville.com
+#KVS_WEB_SITE_SCORE - Now links to the new versusville.com 202X scoreboards
+#MARKET_TRAP_NAME_STEAK_SALE - Capitalized.
+#MARKET_TRAP_NAME_OIL_SLICK - Capitalized.
+#MARKET_TRAP_NAME_SABOTAGE_SIGN - Capitalized.
+#MARKET_NO_POINTS - "get" changed to "arm," "trap" capitalized.
+#MARKET_START_RACE - "Start racing!" changed to "GO!"
